@@ -1,0 +1,155 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .instructor-part .inst-detailes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pop_up {
+        width: 100%;
+        height: auto;
+        z-index: 10;
+        /* background-color: white; */
+        /* visibility: hidden; */
+        display: none;
+        opacity: 0;
+        transition: all 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+            rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        background: #000000b0;
+        background-size: cover;
+        padding: 2rem 3rem;
+        /* opacity: 0.5; */
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .pop_up .info-courses {
+        background-color: #fff;
+        border: 2px solid #eee;
+        width: 105%;
+        height: 85%;
+        border-radius: 15px;
+        padding: 1rem;
+        margin-top: 2%;
+        /* right: 0; */
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .instructor-part .inst-detailes span {
+        display: none;
+    }
+
+    .instructor-part .inst-detailes img {
+        width: 36%;
+    }
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .instructor-part .inst-detailes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pop_up {
+        width: 100%;
+        height: auto;
+        z-index: 10;
+        /* background-color: white; */
+        /* visibility: hidden; */
+        display: none;
+        opacity: 0;
+        transition: all 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+            rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        background: #000000b0;
+        background-size: cover;
+        padding: 2rem 3rem;
+        /* opacity: 0.5; */
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .pop_up .info-courses {
+        background-color: #fff;
+        border: 2px solid #eee;
+        width: 105%;
+        height: 85%;
+        border-radius: 15px;
+        padding: 1rem;
+        margin-top: 2%;
+        /* right: 0; */
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .instructor-part .inst-detailes span {
+        display: none;
+    }
+
+    .instructor-part .inst-detailes img {
+        width: 36%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .instructor-part .inst-detailes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pop_up {
+        width: 100%;
+        height: auto;
+        z-index: 10;
+        /* background-color: white; */
+        /* visibility: hidden; */
+        display: none;
+        opacity: 0;
+        transition: all 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+            rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        background: #000000b0;
+        background-size: cover;
+        padding: 2rem 3rem;
+        /* opacity: 0.5; */
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .pop_up .info-courses {
+        background-color: #fff;
+        border: 2px solid #eee;
+        width: 105%;
+        height: 85%;
+        border-radius: 15px;
+        padding: 1rem;
+        margin-top: 2%;
+        /* right: 0; */
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .instructor-part .inst-detailes span {
+        display: none;
+    }
+
+    .instructor-part .inst-detailes img {
+        width: 36%;
+    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
